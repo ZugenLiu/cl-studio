@@ -48,6 +48,7 @@
 (require-package 'diminish)
 (require-package 'scratch)
 (require-package 'mwe-log-commands)
+(require-package 'helm)
 
 (require 'init-frame-hooks)
 (require 'init-xterm)
@@ -94,6 +95,10 @@
 (require 'init-elm)
 (require 'init-sql)
 
+;; Emacs Awesome 
+(require 'init-projectile)
+
+
 ;; Lisp
 (require 'init-paredit)
 (require 'init-lisp)
@@ -113,6 +118,7 @@
 (require-package 'lua-mode)
 (require-package 'htmlize)
 (require-package 'dsvn)
+(require-package 'neotree)
 (when *is-a-mac*
   (require-package 'osx-location))
 (require-package 'regex-tool)

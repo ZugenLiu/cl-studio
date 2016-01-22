@@ -163,6 +163,7 @@
 (global-set-key (kbd "<f12>") 'execute-extended-command)  ;; Execute command
 
 (global-set-key [f8] 'neotree-toggle)
+(global-set-key [f9] 'project-explorer-open)
 
 ;; ~Commands
 
