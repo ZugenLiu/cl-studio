@@ -60,6 +60,7 @@
 (require 'init-ibuffer)
 (require 'init-flycheck)
 (require 'init-linum)
+(require 'init-osx-keys)
 
 (require 'init-recentf)
 (require 'init-ido)
