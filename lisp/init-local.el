@@ -1,10 +1,7 @@
-(require 'init-linum)
+;; File should contains user's custom code
 (require 'init-keybindings)
 
-;; USER CUSTOM CODE
 ;;
-;; Here you can put own's customization code
-
-;;~ USER CUSTOM CODE
+;; Your code here
 
 (provide 'init-local)
