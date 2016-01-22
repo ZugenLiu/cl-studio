@@ -97,7 +97,7 @@
 
 ;; Emacs Awesome 
 (require 'init-projectile)
-
+(require 'init-avy)
 
 ;; Lisp
 (require 'init-paredit)

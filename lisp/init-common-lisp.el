@@ -43,5 +43,8 @@
 
 (define-key lisp-mode-map (kbd "C-c l") 'lispdoc)
 
+;; Load Lisp snippets
+(require-package 'common-lisp-snippets)
+
 
 (provide 'init-common-lisp)

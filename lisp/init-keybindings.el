@@ -5,12 +5,6 @@
 ;;
 ;; Navigation (by code)
 
-;; Stop using the arrow keys
-(global-unset-key [up])
-(global-unset-key [down])
-(global-unset-key [left])
-(global-unset-key [right])
-
 ;;
 ;; Motion
 
@@ -42,6 +36,13 @@
 (global-set-key (kbd "C-x <down>") 'windmove-down)
 (global-set-key (kbd "C-x <right>") 'windmove-right)
 (global-set-key (kbd "C-x <left>") 'windmove-left)
+
+;; Motion with help by Avy mode
+(global-set-key (kbd "C-:") 'avy-goto-char)
+(global-set-key (kbd "C-'") 'avy-goto-char-2)
+(global-set-key (kbd "C-c f") 'avy-goto-line)
+(global-set-key (kbd "C-c w") 'avy-goto-word-0)
+
 
 ;; ~Motion
 
@@ -131,6 +132,10 @@
 (global-set-key (kbd "C-3") 'split-window-right)   ;; Split window right
 
 ;; ~Windows
+
+;; Search file:
+(global-set-key (kbd "C-c b") 'sr-open-file)
+
 ;; ~ Files & Buffers
 
 
