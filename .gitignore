@@ -40,6 +40,5 @@ site-lisp/package/
 /ido.last
 /recentf
 /viper
-/server
 *.cache
 *.eld

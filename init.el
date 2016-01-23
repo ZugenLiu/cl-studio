@@ -60,7 +60,6 @@
 (require 'init-uniquify)
 (require 'init-ibuffer)
 (require 'init-flycheck)
-(require 'init-linum)
 (require 'init-osx-keys)
 
 (require 'init-recentf)
@@ -98,12 +97,16 @@
 ;; Emacs Awesome 
 (require 'init-projectile)
 (require 'init-avy)
+(require-package 'neotree)
+
 
 ;; Lisp
 (require 'init-paredit)
 (require 'init-lisp)
 (require 'init-slime)
 (require 'init-common-lisp)
+(require 'init-linum)
+(require 'init-easy-kill)
 
 (when *spell-check-support-enabled*
   (require 'init-spelling))
@@ -118,7 +121,7 @@
 (require-package 'lua-mode)
 (require-package 'htmlize)
 (require-package 'dsvn)
-(require-package 'neotree)
+
 (when *is-a-mac*
   (require-package 'osx-location))
 (require-package 'regex-tool)
