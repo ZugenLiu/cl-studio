@@ -136,12 +136,21 @@
 ;; Search file:
 (global-set-key (kbd "C-c b") 'sr-open-file)
 
+;; Resize windows
+(global-set-key (kbd "S-C-<left>") 'shrink-window-horizontally)
+(global-set-key (kbd "S-C-<right>") 'enlarge-window-horizontally)
+(global-set-key (kbd "S-C-<down>") 'shrink-window)
+(global-set-key (kbd "S-C-<up>") 'enlarge-window)
+
 ;; ~ Files & Buffers
 
 
 ;;
 ;;
 ;; Commands
+
+;; Buffers
+(global-set-key (kbd "C-x C-b") 'ibuffer)
 
 ;; Keyboard quit
 (global-set-key (kbd "M-q") 'keyboard-quit)

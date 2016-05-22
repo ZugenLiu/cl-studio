@@ -98,6 +98,7 @@
 (require 'init-projectile)
 (require 'init-avy)
 (require-package 'neotree)
+(require 'init-elscreen)
 
 
 ;; Lisp
@@ -106,10 +107,10 @@
 (require 'init-slime)
 (require 'init-common-lisp)
 (require 'init-linum)
-(require 'init-easy-kill)
+;;(require 'init-easy-kill)
 
 (when *spell-check-support-enabled*
-  (require 'init-spelling))
+ (require 'init-spelling))
 
 (require 'init-misc)
 
@@ -117,10 +118,10 @@
 (require 'init-ledger)
 ;; Extra packages which don't require any configuration
 
-(require-package 'gnuplot)
-(require-package 'lua-mode)
-(require-package 'htmlize)
-(require-package 'dsvn)
+;;(require-package 'gnuplot)
+;;(require-package 'lua-mode)
+;;(require-package 'htmlize)
+;;(require-package 'dsvn)
 
 (when *is-a-mac*
   (require-package 'osx-location))
@@ -166,3 +167,4 @@
 ;; coding: utf-8
 ;; no-byte-compile: t
 ;; End:
+(put 'scroll-left 'disabled nil)
