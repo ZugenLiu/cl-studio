@@ -76,7 +76,6 @@
 (require 'init-fci)
 
 (require 'init-vc)
-(require 'init-darcs)
 (require 'init-git)
 (require 'init-github)
 
@@ -84,14 +83,13 @@
 (require 'init-crontab)
 (require 'init-textile)
 (require 'init-markdown)
-(require 'init-csv)
-(require 'init-javascript)
+                                        ;(require 'init-javascript)
 (require 'init-org)
 (require 'init-nxml)
 (require 'init-html)
 (require 'init-css)
 (require 'init-haml)
-(require 'init-elm)
+                                        ;(require 'init-elm)
 (require 'init-sql)
 
 ;; Emacs Awesome 
