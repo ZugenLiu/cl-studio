@@ -70,9 +70,13 @@ or you could use avy mode:
 |  C-c f   | goto line |
 |  C-c w   | goto word |
 
-### Selections:
+### Work with selections:
 
-Alt+Shift+(J | L | I | K)
+|   Key                       | Descripton|
+| --------------------------- |:---------:|
+|  M-Shift (J, L, I, K)       | select one char |
+|  C-M Space                  | select all code between two parenthesis |
+|  Shift+Delete               | cut selected code |
 
 ### Navigation between windows:
 
@@ -87,6 +91,8 @@ M+x Up | Down | Left | Right *(arrows)*
 F8 - open NeoTree mode it's simple mode for view files and directories.
 
 F9 - open projectile mode. More complicated mode for work with project's structure.
+
+---
 
 More learn about supported functions and keybindgs you could if will see **init-keibindings.el** and other '**init-**' files.
 
