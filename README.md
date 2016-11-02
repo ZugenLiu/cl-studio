@@ -52,31 +52,40 @@ in progress
 
 # Hot keys
 
-1. Navigations by code:
+### Navigations by code:
 
-Left  - Alt+J
-Right - Alt+L
-Up    - Alt+I
-Down  - Alt+K
+|   Key    | Descripton|
+| -------- |:---------:|
+|  Alt+J   | move Left |
+|  Alt+L   | move Right|
+|  Alt+I   | move Up   |
+|  Alt+K   | move Down |
 
 or you could use avy mode:
 
-C-:   - goto char
-C-c f - goto line
-C-c w - goto word
+|   Key    | Descripton|
+| -------- |:---------:|
+|  C-:     | goto char |
+|  C-:     | goto char |
+|  C-c f   | goto line |
+|  C-c w   | goto word |
 
-
-2. Selections:
+### Selections:
 
 Alt+Shift+(J | L | I | K)
 
-3. Navigation between windows:
+### Navigation between windows:
 
-M+x O or M+x Up | Down | Left | Right *(arrows)*
+M+x O 
 
-4. Navigation by project
+or 
+
+M+x Up | Down | Left | Right *(arrows)*
+
+### Navigation by project
 
 F8 - open NeoTree mode it's simple mode for view files and directories.
+
 F9 - open projectile mode. More complicated mode for work with project's structure.
 
 More learn about supported functions and keybindgs you could if will see **init-keibindings.el** and other '**init-**' files.
